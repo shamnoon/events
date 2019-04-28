@@ -41,4 +41,12 @@
     <plugin name="cordova-plugin-keyboard" spec="^1.2.0" />
     <engine name="android" spec="^7.1.4" />
     <engine name="ios" spec="~4.5.5" />
+    <splash density="port-hdpi" src="splash/screen-hdpi-portrait.png" />
+    <splash density="port-ldpi" src="splash/screen-ldpi-portrait.png" />
+    <splash density="port-mdpi" src="splash/screen-mdpi-portrait.png" />
+    <splash density="port-xhdpi" src="splash/screen-xhdpi-portrait.png" />
+    <icon density="ldpi" src="icon/icon36.png" />
+    <icon density="mdpi" src="icon/icon48.png" />
+    <icon density="hdpi" src="icon/icon72.png" />
+    <icon density="xhdpi" src="icon/icon96.png" />
 </widget>
