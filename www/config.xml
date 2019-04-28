@@ -16,6 +16,10 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <preference name="SplashScreenDelay" value="5000" />  
+    <preference name="AutoHideSplashScreen" value="true" />  
+    <preference name="SplashScreen" value="splash" />  
+    <preference name="SplashMaintainAspectRatio" value="true" /> 
     <platform name="android">
         <allow-intent href="market:*" />
         <preference name="AutoHideSplashScreen" value="true" />
@@ -41,12 +45,4 @@
     <plugin name="cordova-plugin-keyboard" spec="^1.2.0" />
     <engine name="android" spec="^7.1.4" />
     <engine name="ios" spec="~4.5.5" />
-    <splash density="port-hdpi" src="splash/screen-hdpi-portrait.png" />
-    <splash density="port-ldpi" src="splash/screen-ldpi-portrait.png" />
-    <splash density="port-mdpi" src="splash/screen-mdpi-portrait.png" />
-    <splash density="port-xhdpi" src="splash/screen-xhdpi-portrait.png" />
-    <icon density="ldpi" src="icons/icon36.png" />
-    <icon density="mdpi" src="icons/icon48.png" />
-    <icon density="hdpi" src="icons/icon72.png" />
-    <icon density="xhdpi" src="icons/icon96.png" />
 </widget>
