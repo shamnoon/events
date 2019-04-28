@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.abhinava" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Abhinava events</name>
+    <description>
+        This app is about the conference
+    </description>
+    <author email="abhilash.l@abhinavaevents.com" href="abhilash.l@abhinavaevents.com">
+        Abhinava Team
+    </author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <preference name="AutoHideSplashScreen" value="true" />
+        <preference name="SplashScreenDelay" value="5000" />
+        <preference name="orientation" value="portrait" />
+        <splash density="port-hdpi" src="splash/screen-hdpi-portrait.png" />
+        <splash density="port-ldpi" src="splash/screen-ldpi-portrait.png" />
+        <splash density="port-mdpi" src="splash/screen-mdpi-portrait.png" />
+        <splash density="port-xhdpi" src="splash/screen-xhdpi-portrait.png" />
+        <icon density="ldpi" src="icon/icon36.png" />
+        <icon density="mdpi" src="icon/icon48.png" />
+        <icon density="hdpi" src="icon/icon72.png" />
+        <icon density="xhdpi" src="icon/icon96.png" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <plugin name="cordova-plugin-dialogs" spec="^2.0.1" />
+    <plugin name="cordova-plugin-spinner" spec="^1.1.0" />
+    <plugin name="cordova-plugin-statusbar" spec="^2.4.2" />
+    <plugin name="cordova-plugin-splashscreen" spec="^5.0.2" />
+    <plugin name="cordova-plugin-keyboard" spec="^1.2.0" />
+    <engine name="android" spec="^7.1.4" />
+    <engine name="ios" spec="~4.5.5" />
+</widget>
