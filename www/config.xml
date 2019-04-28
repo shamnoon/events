@@ -25,10 +25,10 @@
         <splash density="port-ldpi" src="splash/screen-ldpi-portrait.png" />
         <splash density="port-mdpi" src="splash/screen-mdpi-portrait.png" />
         <splash density="port-xhdpi" src="splash/screen-xhdpi-portrait.png" />
-        <icon density="ldpi" src="icon/icon36.png" />
-        <icon density="mdpi" src="icon/icon48.png" />
-        <icon density="hdpi" src="icon/icon72.png" />
-        <icon density="xhdpi" src="icon/icon96.png" />
+        <icon density="ldpi" src="icons/icon36.png" />
+        <icon density="mdpi" src="icons/icon48.png" />
+        <icon density="hdpi" src="icons/icon72.png" />
+        <icon density="xhdpi" src="icons/icon96.png" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
@@ -45,8 +45,8 @@
     <splash density="port-ldpi" src="splash/screen-ldpi-portrait.png" />
     <splash density="port-mdpi" src="splash/screen-mdpi-portrait.png" />
     <splash density="port-xhdpi" src="splash/screen-xhdpi-portrait.png" />
-    <icon density="ldpi" src="icon/icon36.png" />
-    <icon density="mdpi" src="icon/icon48.png" />
-    <icon density="hdpi" src="icon/icon72.png" />
-    <icon density="xhdpi" src="icon/icon96.png" />
+    <icon density="ldpi" src="icons/icon36.png" />
+    <icon density="mdpi" src="icons/icon48.png" />
+    <icon density="hdpi" src="icons/icon72.png" />
+    <icon density="xhdpi" src="icons/icon96.png" />
 </widget>
